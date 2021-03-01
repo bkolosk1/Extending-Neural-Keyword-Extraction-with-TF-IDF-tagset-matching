@@ -1,0 +1,43 @@
+Classification results for config bpe+rnn_latvian_big:
+
+Parameters:
+Namespace(POS_tags=False, adaptive=False, b1=0.9, b2=0.999, batch_size=8, bpe=True, bpe_model_path='bpe/bpe_latvian_big.model', classification=True, clip=0.25, config_id='bpe+rnn_latvian_big', crf=False, cuda=True, data_path='data', datasets='latvian', dict_path='dictionaries/dict_bpe+rnn_latvian_big_bpe_nopos_rnn_nocrf.ptb', e=1e-08, eta_min=0.0, initializer_range=0.02, kw_cut=10, l2=0.01, lang='latvian', layer_norm_epsilon=1e-06, length=-1, lm_corpus_file='latvian_big.json', lr=3e-05, lr_schedule='warmup_linear', lr_warmup=0.002, masked_lm=True, max_grad_norm=1, max_step=100000, max_vocab_size=0, n_ctx=256, n_embd=768, n_head=8, n_layer=8, n_positions=256, nsamples=1, num_epoch=10, result_path='bert_latvian', rnn=True, seed=0, temperature=1, top_k=0, trained_classification_models_dir='trained_classification_models', trained_language_models_dir='trained_language_models', transfer_learning=True, unconditional=False, vector_l2=False)
+------------------------------------------------
+Classification results for config bpe+rnn_latvian_big:
+
+Parameters:
+Namespace(POS_tags=False, adaptive=False, b1=0.9, b2=0.999, batch_size=8, bpe=True, bpe_model_path='bpe/bpe_latvian_big.model', classification=True, clip=0.25, config_id='bpe+rnn_latvian_big', crf=False, cuda=True, data_path='data', datasets='latvian', dict_path='dictionaries/dict_bpe+rnn_latvian_big_bpe_nopos_rnn_nocrf.ptb', e=1e-08, eta_min=0.0, initializer_range=0.02, kw_cut=10, l2=0.01, lang='latvian', layer_norm_epsilon=1e-06, length=-1, lm_corpus_file='latvian_big.json', lr=3e-05, lr_schedule='warmup_linear', lr_warmup=0.002, masked_lm=True, max_grad_norm=1, max_step=100000, max_vocab_size=0, n_ctx=256, n_embd=768, n_head=8, n_layer=8, n_positions=256, nsamples=1, num_epoch=10, result_path='bert_latvian', rnn=True, seed=0, temperature=1, top_k=0, trained_classification_models_dir='trained_classification_models', trained_language_models_dir='trained_language_models', transfer_learning=True, unconditional=False, vector_l2=False)
+------------------------------------------------
+Dataset: latvian
+Precision@5: 0.6236868271274773 Recall@5: 0.606935555986677 F1@5: 0.6152
+Precision@10: 0.6233093082943937 Recall@10: 0.6088951109805871 F1@10: 0.616
+Precision@k: 0.6481294266317924 Recall@k: 0.5328638221021476 F1@k: 0.5849
+Precision@M: 0.6233093082943937 Recall@M: 0.6088951109805871 F1@M: 0.616
+Num. trainable parameters: 190975490
+Classification results for config bpe+rnn_latvian:
+
+Parameters:
+Namespace(POS_tags=False, adaptive=False, b1=0.9, b2=0.999, batch_size=8, bpe=True, bpe_model_path='bpe/bpe_latvian_big.model', classification=True, clip=0.25, config_id='bpe+rnn_latvian', crf=False, cuda=True, data_path='data', datasets='latvian', dict_path='dictionaries/dict_bpe+rnn_latvian_bpe_nopos_rnn_nocrf.ptb', e=1e-08, eta_min=0.0, initializer_range=0.02, kw_cut=10, l2=0.01, lang='latvian', layer_norm_epsilon=1e-06, length=-1, lm_corpus_file='latvian_big.json', lr=3e-05, lr_schedule='warmup_linear', lr_warmup=0.002, masked_lm=True, max_grad_norm=1, max_step=100000, max_vocab_size=0, n_ctx=256, n_embd=768, n_head=8, n_layer=8, n_positions=256, nsamples=1, num_epoch=10, result_path='bert_latvian', rnn=True, seed=0, temperature=1, top_k=0, trained_classification_models_dir='trained_classification_models', trained_language_models_dir='trained_language_models', transfer_learning=True, unconditional=False, vector_l2=False)
+------------------------------------------------
+Classification results for config bpe+rnn_latvian_f:
+
+Parameters:
+Namespace(POS_tags=False, adaptive=False, b1=0.9, b2=0.999, batch_size=8, bpe=True, bpe_model_path='bpe/bpe_latvian_big.model', classification=True, clip=0.25, config_id='bpe+rnn_latvian_f', crf=False, cuda=True, data_path='data', datasets='latvian', dict_path='dictionaries/dict_bpe+rnn_latvian_f_bpe_nopos_rnn_nocrf.ptb', e=1e-08, eta_min=0.0, initializer_range=0.02, kw_cut=10, l2=0.01, lang='latvian', layer_norm_epsilon=1e-06, length=-1, lm_corpus_file='latvian_big.json', lr=3e-05, lr_schedule='warmup_linear', lr_warmup=0.002, masked_lm=True, max_grad_norm=1, max_step=100000, max_vocab_size=0, n_ctx=256, n_embd=768, n_head=8, n_layer=8, n_positions=256, nsamples=1, num_epoch=10, result_path='bert_latvian', rnn=True, seed=0, temperature=1, top_k=0, trained_classification_models_dir='trained_classification_models', trained_language_models_dir='trained_language_models', transfer_learning=True, unconditional=False, vector_l2=False)
+------------------------------------------------
+Classification results for config bpe+rnn_latvian_f:
+
+Parameters:
+Namespace(POS_tags=False, adaptive=False, b1=0.9, b2=0.999, batch_size=8, bpe=True, bpe_model_path='bpe/bpe_latvian_big.model', classification=True, clip=0.25, config_id='bpe+rnn_latvian_f', crf=False, cuda=True, data_path='data', datasets='latvian', dict_path='dictionaries/dict_bpe+rnn_latvian_f_bpe_nopos_rnn_nocrf.ptb', e=1e-08, eta_min=0.0, initializer_range=0.02, kw_cut=10, l2=0.01, lang='latvian', layer_norm_epsilon=1e-06, length=-1, lm_corpus_file='latvian_big.json', lr=3e-05, lr_schedule='warmup_linear', lr_warmup=0.002, masked_lm=True, max_grad_norm=1, max_step=100000, max_vocab_size=0, n_ctx=256, n_embd=768, n_head=8, n_layer=8, n_positions=256, nsamples=1, num_epoch=10, result_path='bert_latvian', rnn=True, seed=0, temperature=1, top_k=0, trained_classification_models_dir='trained_classification_models', trained_language_models_dir='trained_language_models', transfer_learning=True, unconditional=False, vector_l2=False)
+------------------------------------------------
+Dataset: latvian
+Precision@5: 0.6133391620379894 Recall@5: 0.6105988941799474 F1@5: 0.612
+Precision@10: 0.6122611373974263 Recall@10: 0.6133939821864116 F1@10: 0.6128
+Precision@k: 0.6415523783400763 Recall@k: 0.5306840508573691 F1@k: 0.5809
+Precision@M: 0.6122611373974263 Recall@M: 0.6133939821864116 F1@M: 0.6128
+Num. trainable parameters: 190975490
+
+-----------------------------------------------------------
+
+-----------------------End of the run----------------------
+
+-----------------------------------------------------------

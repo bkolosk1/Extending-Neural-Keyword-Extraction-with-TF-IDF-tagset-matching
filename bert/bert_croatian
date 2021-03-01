@@ -1,0 +1,34 @@
+Classification results for config bpe+rnn_croatian_big:
+
+Parameters:
+Namespace(POS_tags=False, adaptive=False, b1=0.9, b2=0.999, batch_size=8, bpe=True, bpe_model_path='bpe/bpe_croatian_big.model', classification=True, clip=0.25, config_id='bpe+rnn_croatian_big', crf=False, cuda=True, data_path='data', datasets='croatian', dict_path='dictionaries/dict_bpe+rnn_croatian_big_bpe_nopos_rnn_nocrf.ptb', e=1e-08, eta_min=0.0, initializer_range=0.02, kw_cut=10, l2=0.01, lang='croatian', layer_norm_epsilon=1e-06, length=-1, lm_corpus_file='croatian_big.json', lr=3e-05, lr_schedule='warmup_linear', lr_warmup=0.002, masked_lm=True, max_grad_norm=1, max_step=100000, max_vocab_size=0, n_ctx=256, n_embd=768, n_head=8, n_layer=8, n_positions=256, nsamples=1, num_epoch=10, result_path='bert_croatian', rnn=True, seed=0, temperature=1, top_k=0, trained_classification_models_dir='trained_classification_models', trained_language_models_dir='trained_language_models', transfer_learning=True, unconditional=False, vector_l2=False)
+------------------------------------------------
+Dataset: croatian
+Precision@5: 0.4737268518518518 Recall@5: 0.4575189179207036 F1@5: 0.4655
+Precision@10: 0.4732579050138573 Recall@10: 0.4602041031058889 F1@10: 0.4666
+Precision@k: 0.5035548941798942 Recall@k: 0.392373415275201 F1@k: 0.4411
+Precision@M: 0.4732579050138573 Recall@M: 0.4602041031058889 F1@M: 0.4666
+Num. trainable parameters: 190975490
+
+-----------------------------------------------------------
+
+-----------------------End of the run----------------------
+
+-----------------------------------------------------------
+Classification results for config bpe+rnn_croatian_new:
+
+Parameters:
+Namespace(POS_tags=False, adaptive=False, b1=0.9, b2=0.999, batch_size=8, bpe=True, bpe_model_path='bpe/bpe_croatian_big.model', classification=True, clip=0.25, config_id='bpe+rnn_croatian_new', crf=False, cuda=True, data_path='data', datasets='croatian', dict_path='dictionaries/dict_bpe+rnn_croatian_new_bpe_nopos_rnn_nocrf.ptb', e=1e-08, eta_min=0.0, initializer_range=0.02, kw_cut=10, l2=0.01, lang='croatian', layer_norm_epsilon=1e-06, length=-1, lm_corpus_file='croatian_big.json', lr=3e-05, lr_schedule='warmup_linear', lr_warmup=0.002, masked_lm=True, max_grad_norm=1, max_step=100000, max_vocab_size=0, n_ctx=256, n_embd=768, n_head=8, n_layer=8, n_positions=256, nsamples=1, num_epoch=10, result_path='bert_croatian', rnn=True, seed=0, temperature=1, top_k=0, trained_classification_models_dir='trained_classification_models', trained_language_models_dir='trained_language_models', transfer_learning=True, unconditional=False, vector_l2=False)
+------------------------------------------------
+Dataset: croatian
+Precision@5: 0.46077864508046645 Recall@5: 0.46662926710628355 F1@5: 0.4637
+Precision@10: 0.45998201149979123 Recall@10: 0.4702003515099786 F1@10: 0.465
+Precision@k: 0.5020216412670879 Recall@k: 0.3991173244859281 F1@k: 0.4447
+Precision@M: 0.45998201149979123 Recall@M: 0.4702003515099786 F1@M: 0.465
+Num. trainable parameters: 190975490
+
+-----------------------------------------------------------
+
+-----------------------End of the run----------------------
+
+-----------------------------------------------------------

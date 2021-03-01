@@ -1,0 +1,10 @@
+nltk==3.2.4
+numpy==1.16.2
+torch==1.7.0
+pandas==0.25.3
+LatvianStemmer==1.0.2
+lemmagen3==3.3.1
+preprocessing==0.1.13
+scikit_learn==0.24.1
+torchcrf==1.1.0
+sentencepiece==0.1.95

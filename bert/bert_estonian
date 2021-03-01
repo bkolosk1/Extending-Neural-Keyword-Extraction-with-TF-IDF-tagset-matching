@@ -1,0 +1,17 @@
+Classification results for config bpe+rnn_estonian_big_f:
+
+Parameters:
+Namespace(POS_tags=False, adaptive=False, b1=0.9, b2=0.999, batch_size=8, bpe=True, bpe_model_path='bpe/bpe_estonian_big.model', classification=True, clip=0.25, config_id='bpe+rnn_estonian_big_f', crf=False, cuda=True, data_path='data', datasets='estonian', dict_path='dictionaries/dict_bpe+rnn_estonian_big_f_bpe_nopos_rnn_nocrf.ptb', e=1e-08, eta_min=0.0, initializer_range=0.02, kw_cut=10, l2=0.01, lang='estonian', layer_norm_epsilon=1e-06, length=-1, lm_corpus_file='estonian_big.json', lr=3e-05, lr_schedule='warmup_linear', lr_warmup=0.002, masked_lm=True, max_grad_norm=1, max_step=100000, max_vocab_size=0, n_ctx=256, n_embd=768, n_head=8, n_layer=8, n_positions=256, nsamples=1, num_epoch=10, result_path='bert_estonian', rnn=True, seed=0, temperature=1, top_k=0, trained_classification_models_dir='trained_classification_models', trained_language_models_dir='trained_language_models', transfer_learning=True, unconditional=False, vector_l2=False)
+------------------------------------------------
+Dataset: estonian
+Precision@5: 0.5061494719740048 Recall@5: 0.4512089009599293 F1@5: 0.4771
+Precision@10: 0.502178252291981 Recall@10: 0.46655687775404003 F1@10: 0.4837
+Precision@k: 0.5350379740306629 Recall@k: 0.40837608526374314 F1@k: 0.4632
+Precision@M: 0.502178252291981 Recall@M: 0.46655687775404003 F1@M: 0.4837
+Num. trainable parameters: 190975490
+
+-----------------------------------------------------------
+
+-----------------------End of the run----------------------
+
+-----------------------------------------------------------
