@@ -1,0 +1,11 @@
+.project
+.pydevproject
+*.npy
+*.npz
+*.pyc
+.idea
+results
+
+
+
+

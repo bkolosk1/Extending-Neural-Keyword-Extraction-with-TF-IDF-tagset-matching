@@ -1,0 +1,6 @@
+torch
+nltk
+pandas
+sklearn
+sentencepiece
+pytorch-crf
